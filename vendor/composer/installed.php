@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '1b0e9596b33c0592c0a99ad9719bbf3349f3ea74',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -385,6 +385,15 @@
                 0 => '9.0.0',
             ),
         ),
+        'drupal/ctools' => array(
+            'pretty_version' => '3.9.0',
+            'version' => '3.9.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/ctools',
+            'aliases' => array(),
+            'reference' => '8.x-3.9',
+            'dev_requirement' => false,
+        ),
         'drupal/datetime' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -613,6 +622,15 @@
                 0 => '9.0.0',
             ),
         ),
+        'drupal/pathauto' => array(
+            'pretty_version' => '1.10.0',
+            'version' => '1.10.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/pathauto',
+            'aliases' => array(),
+            'reference' => '8.x-1.10',
+            'dev_requirement' => false,
+        ),
         'drupal/quickedit' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -626,12 +644,12 @@
             ),
         ),
         'drupal/recommended-project' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '1b0e9596b33c0592c0a99ad9719bbf3349f3ea74',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
@@ -723,6 +741,15 @@
             'replaced' => array(
                 0 => '9.0.0',
             ),
+        ),
+        'drupal/token' => array(
+            'pretty_version' => '1.10.0',
+            'version' => '1.10.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/token',
+            'aliases' => array(),
+            'reference' => '8.x-1.10',
+            'dev_requirement' => false,
         ),
         'drupal/toolbar' => array(
             'dev_requirement' => false,
